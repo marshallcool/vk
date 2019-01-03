@@ -1,0 +1,40 @@
+{
+  "name": "vk",
+  "version": "1.0.0",
+  "description": "vk",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app/server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.26.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "find-or-create": "^1.1.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.12.3",
+    "mongoose-unique-validator": "^1.0.6",
+    "passport": "^0.4.0",
+    "passport-vkontakte": "^0.3.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1",
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  }
+}
